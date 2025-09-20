@@ -1,0 +1,3 @@
+- [ ] Update src/components/backGroundVideo.js: Change import from useNowPlayingMoviesTrailer to useMovieTrailerVideo and update hook call
+- [ ] Update src/hooks/useMovieVideo.js: Add [movieId] to useEffect dependency array
+- [ ] Test video playback to confirm error is resolved
