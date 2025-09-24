@@ -30,7 +30,11 @@ embadded the youtube video and make it autoplay and mute
 tailwind classes to make maincontainer loke awsome 
 build movielist and movie card tmdb url 
 made the brwose page amazing with tailwind css
-usepopular movie custom hooks ...
+usepopular movie custom hooks 
+gpt search feature
+gpt search page
+gpt searchbar
+multilanguage feature in our app 
 
 #  features
 login/signup
