@@ -108,16 +108,16 @@ const Login = () => {
   return (
     <div className="">
       <Header />
-      <div>
+      <div className="absolute">
         <img
-          className="absolute"
+          className="h-screen w-screen object-cover"
           alt="background-img"
           src= {BACKGROUND_IMG}
         />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="absolute p-14 w-4/12 rounded-2xl shadow-white bg-black my-36 mx-auto right-0 left-0 bg-opacity-70"
+        className="w-full md:my-24 md:w-5/12 absolute p-14  rounded-2xl shadow-white bg-black my-30 mx-auto right-0 left-0 bg-opacity-70"
       >
         <h1 className="text-3xl font-bold text-white py-4">
           {signIn ? "Sign In" : "Sign Up"}

@@ -35,6 +35,15 @@ gpt search feature
 gpt search page
 gpt searchbar
 multilanguage feature in our app 
+get open api key 
+gpt search api call 
+fetched gptmoviessuggesstion
+gptslice added data
+reused movie list componenets to make movie suggestion container
+Memoziation
+Added .env file 
+Adding .env file to gitignore 
+Make our app responsive 
 
 #  features
 login/signup
