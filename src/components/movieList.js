@@ -2,8 +2,7 @@ import React from "react";
 import MovieCart from "./movieCart";
 
 const MovieList = ({ title, movies }) => {
-  console.log(movies);
-
+  
   // Add null/undefined checks to prevent the error
   if (!movies || movies.length === 0) {
     return (

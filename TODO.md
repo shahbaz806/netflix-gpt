@@ -1,3 +1,3 @@
-- [ ] Update src/components/backGroundVideo.js: Change import from useNowPlayingMoviesTrailer to useMovieTrailerVideo and update hook call
-- [ ] Update src/hooks/useMovieVideo.js: Add [movieId] to useEffect dependency array
-- [ ] Test video playback to confirm error is resolved
+- [x] Fix import path in src/components/gptSearchBar.js from '../utils/openai..' to '../utils/openai...js'
+- [x] Update the API usage in src/components/gptSearchBar.js to match the @google/genai package
+- [ ] Test the application to verify the error is resolved

@@ -11,12 +11,18 @@ export const API_OPTION = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI5NDdhMmJmOGRlYTZjZTMwZjc0NDg4ZmFhZDIzMiIsIm5iZiI6MTc1ODA5NjA0OC42Miwic3ViIjoiNjhjYTZhYjA0ZjY1NzJhYjJlMWYyMTQyIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.pCQvX_7kuN6RWhlzOz1muE_bIwqgeshNP0cGw9P6IM0",
+    Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MDI5NDdhMmJmOGRlYTZjZTMwZjc0NDg4ZmFhZDIzMiIsIm5iZiI6MTc1ODA5NjA0OC42Miwic3ViIjoiNjhjYTZhYjA0ZjY1NzJhYjJlMWYyMTQyIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.pCQvX_7kuN6RWhlzOz1muE_bIwqgeshNP0cGw9P6IM0" ,
   },
 };
 
-export const IMG_URL =
-  "https://image.tmdb.org/t/p/w500";
+export const OPEN_API_KEY = "AIzaSyC-u6a45WNZOILkzu0w9Ia_M_rM4VF8JNY";
 
-export const SUPPORTED_LANGUAGES = [{identifier:"en",name: "English"},{identifier:"hindi",name: "Hindi"},{identifier:"spanich",name: "Spanich"}];
+export const IMG_URL = "https://image.tmdb.org/t/p/w500";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanich", name: "Spanich" },
+];
+
+export const SAMPLE_MOVIES = ["Inception", "The Dark Knight", "Interstellar", "The Prestige", "Memento"];
